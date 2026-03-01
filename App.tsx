@@ -49,7 +49,7 @@ const App: React.FC = () => {
         {/* Logo Section */}
         <header className="mb-6 float-animation">
           <h2 className="text-4xl font-black tracking-tight"><span className="text-white">GharKa</span><span className="text-brand-accent">Adda</span></h2>
-          <p className="text-sm text-slate-400 mt-2 italic tracking-wide">Jahan Talash Khatam, Wahan GharKaAdda Shuru.</p>
+          <p className="text-sm text-slate-400 mt-2 italic tracking-wide">Stay Near. Connect Direct. No Broker.</p>
         </header>
 
         {/* Hero Section */}
