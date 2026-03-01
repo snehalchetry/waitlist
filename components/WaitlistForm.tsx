@@ -49,7 +49,7 @@ const WaitlistForm: React.FC = () => {
             transform active:scale-95 text-base whitespace-nowrap hover:scale-105
             ${status === 'success'
               ? 'bg-green-700 text-white'
-              : 'bg-brand-primary hover:bg-red-800 text-brand-accent'}
+              : 'bg-gradient-to-r from-brand-primary to-red-700 hover:from-red-700 hover:to-brand-primary text-brand-accent shadow-[0_0_15px_rgba(127,29,29,0.2)]'}
             ${status === 'loading' ? 'opacity-70 cursor-wait' : ''}
           `}
         >
